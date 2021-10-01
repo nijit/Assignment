@@ -1,0 +1,9 @@
+The number of unique cities can be find using the following statement-
+SELECT COUNT( DISTINCT city ) FROM order_details ;
+
+The number of unique vendors can be find using the following statement-
+SELECT COUNT( DISTINCT vendor_id) FROM order_details ;
+
+The list of vendor ids operating in Guwahati can be find using the following statement-
+SELECT distinct vendor_id  from FROM order_details where city='Guwahati';
+
